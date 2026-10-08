@@ -5,10 +5,9 @@
 ![Role](https://img.shields.io/badge/Software%20Engineer-Backend%20%7C%20Cloud%20%7C%20Full--Stack-FF6B35?style=for-the-badge)
 
 ![Location](https://img.shields.io/badge/📍-Seattle,_WA-0078D4?style=flat-square)
-![Experience](https://img.shields.io/badge/💼-6%2B_Years_Experience-2EA043?style=flat-square)
-![GitHub](https://img.shields.io/badge/GitHub-shwetaptl-181717?style=flat-square&logo=github&logoColor=white)
+[![GitHub](https://img.shields.io/badge/GitHub-shwetaptl-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shwetaptl)
 
-Software Engineer with 6+ years building backend systems, REST APIs, and event-driven applications across the .NET, Azure, AWS, and GCP stack, including production work in regulated healthcare and enterprise SaaS environments. Recently completed an M.S. in Computer Information Science, extending that foundation into applied Python, cloud data pipelines, and AI-assisted engineering through the independent projects below.
+Software Engineer with professional experience building backend systems, REST APIs, and event-driven applications across the .NET, Azure, AWS, and GCP stack, including production work in regulated healthcare and enterprise SaaS environments. Recently completed an M.S. in Computer Information Science, extending that foundation into applied Python, cloud data pipelines, and AI-assisted engineering through the independent projects below.
 
 </div>
 
