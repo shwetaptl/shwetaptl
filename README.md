@@ -45,11 +45,12 @@ Software Engineer with professional experience building backend systems, REST AP
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Stars](https://img.shields.io/github/stars/shwetaptl/QueueBacklogIntelligence?style=flat-square&color=F5A623)
 
-Monitoring Azure Service Bus queues for backlog growth or SLA breaches usually means watching a dashboard with no fast way to tell a real breach from a blip, or to diagnose why it's happening.
+Detects Azure Service Bus backlogs and SLA breaches before they become incidents.
 
-A serverless pipeline of Azure Functions that polls queue metrics every 60 seconds, classifies the trend and likely root cause, and dispatches deduplicated Teams alerts — surfaced through a React dashboard with OAuth2 login (Azure AD + MSAL).
-
-> **Design choice worth calling out:** alerts require two consecutive clean readings before clearing, added after early testing showed severity "flapping" on borderline queues — alongside a noise-floor threshold that scales with queue size instead of one fixed cutoff for all queues.
+- Serverless Azure Functions pipeline — polls queue metrics every 60s
+- Classifies trend + root cause, dispatches deduplicated Teams alerts
+- React dashboard with OAuth2 login (Azure AD + MSAL)
+- Sticky de-escalation + noise-floor filtering to cut false positives
 
 ### [Job Search Automation Pipeline](https://github.com/shwetaptl/job-search-automation)
 
@@ -59,11 +60,12 @@ A serverless pipeline of Azure Functions that polls queue metrics every 60 secon
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4B8BBE?style=flat-square&logo=python&logoColor=white)
 ![Stars](https://img.shields.io/github/stars/shwetaptl/job-search-automation?style=flat-square&color=F5A623)
 
-Screening relevant software engineering postings across scattered sources — aggregator repos, individual company boards — means hours of manual reading every day.
+Cuts hours of manual job-board scanning down to one ranked CSV.
 
-A Python CLI that pulls listings from several GitHub-tracked job lists plus the Greenhouse public API, scrapes full descriptions (falling back to a headless browser for JS-rendered pages), and scores each posting against a persistent candidate profile via the Gemini API, with Groq as a fallback provider.
-
-> **Design choice worth calling out:** the script auto-detects which LLM provider to use from whichever API key is set in the environment, so switching providers needs no code change, and it filters out non-matching seniority levels before scoring to cut API cost.
+- Python CLI pulling listings from GitHub-tracked job lists + Greenhouse API
+- Scrapes full descriptions, with headless-browser fallback for JS-heavy pages
+- Scores each posting against a candidate profile via Gemini (Groq fallback)
+- Auto-detects LLM provider from env vars — no code change to switch
 
 ---
 
