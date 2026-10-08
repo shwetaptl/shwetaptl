@@ -7,7 +7,7 @@
 ![Location](https://img.shields.io/badge/📍-Seattle,_WA-0078D4?style=flat-square)
 [![GitHub](https://img.shields.io/badge/GitHub-shwetaptl-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shwetaptl)
 
-Software Engineer with professional experience building backend systems, REST APIs, and event-driven applications across the .NET, Azure, AWS, and GCP stack, including production work in regulated healthcare and enterprise SaaS environments. Recently completed an M.S. in Computer Information Science, extending that foundation into applied Python, cloud data pipelines, and AI-assisted engineering through the independent projects below.
+Full-stack Software Engineer building backend systems, REST APIs, and React front-ends across .NET and cloud platforms (Azure, AWS, GCP), including production work in regulated healthcare and enterprise SaaS environments. M.S. in Computer Information Science, with hands-on work in Python, cloud data pipelines, and AI-assisted engineering through the independent projects below.
 
 </div>
 
@@ -66,15 +66,6 @@ Cuts hours of manual job-board scanning down to one ranked CSV.
 - Scrapes full descriptions, with headless-browser fallback for JS-heavy pages
 - Scores each posting against a candidate profile via Gemini (Groq fallback)
 - Auto-detects LLM provider from env vars — no code change to switch
-
----
-
-## 💡 Professional Engineering Highlights
-
-- Diagnosed a backend issue causing roughly 4 in 10 requests to time out, and improved API response time by 40% through async processing, fewer database calls, and targeted indexing.
-- Built the backend event-processing worker for an IoT medication-dispensing workflow, handling real-time pub/sub messages for 500+ patients (~7,500+ messages/day) while enforcing dose-timing business rules.
-- Implemented JWT authentication and role-based access control across API endpoints, and built monitoring dashboards that cut incident-detection time from roughly two hours to fifteen minutes.
-- Led and mentored a team of 6–8 engineers through structured code reviews, while delivering features in regulated healthcare and enterprise SaaS applications.
 
 ---
 
